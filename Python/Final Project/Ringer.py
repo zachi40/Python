@@ -168,7 +168,7 @@ class MainWindow(QtGui.QMainWindow):
 
     def import_file(self):
         if self.check_os() == "Windows":
-            fileName = QtGui.QFileDialog.getOpenFileName(self, "Import File", "c:/users/zahi/Desktop/","MP3 File (*.mp3);;WMV File (*.WMV)")
+            fileName = QtGui.QFileDialog.getOpenFileName(self, "Import File", "c:/","MP3 File (*.mp3);;WMV File (*.WMV)")
             if fileName:
                     item = QtGui.QListWidgetItem()
                     item.setText(fileName)

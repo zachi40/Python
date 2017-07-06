@@ -116,7 +116,7 @@ class Player(QtGui.QMainWindow):
         self.muteVolume.mouseReleaseEvent = self.mute_Volume
 
     def load(self):
-        with codecs.open("C:\Users\zahi\Dropbox\zahi\Extra\Python\Final Project\player\songlist.txt", encoding="cp1255") as lines:
+        with codecs.open("songlist.txt", encoding="cp1255") as lines:
             for line in lines:
                 self.path_songs.append(line)
                 item = QtGui.QListWidgetItem()
