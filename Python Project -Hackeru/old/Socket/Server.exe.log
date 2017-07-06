@@ -1,7 +1,0 @@
-Traceback (most recent call last):
-  File "Server.py", line 96, in <module>
-    Server = OpenSocket()
-  File "Server.py", line 90, in OpenSocket
-    Server.bind((TragetIp, TragetPort))
-  File "socket.pyo", line 228, in meth
-socket.error: [Errno 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
