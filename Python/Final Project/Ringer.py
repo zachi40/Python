@@ -188,9 +188,9 @@ class MainWindow(QtGui.QMainWindow):
             sys.exit()
 
     def aboutApp(self):
-        website = "##"
+        website = "http://Virus.com"
         email = "zachi40@gmail.com"
-        license_link = "##"
+        license_link = "Http://Licemse.link"
         license_name = "Ringer"
 
         msgBox = QtGui.QMessageBox()
